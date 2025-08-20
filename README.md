@@ -19,7 +19,6 @@ Pseudocode for Gameplay:
    b. Calculate:
       - Time taken
       - Words per minute (WPM) = (number of words / time in minutes)
-      - Accuracy = (number of correct characters / total characters) × 100%
    c. Display results to the player.
 
 4. Allow the player to:

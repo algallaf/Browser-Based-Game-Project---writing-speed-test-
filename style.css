@@ -1,0 +1,101 @@
+body {
+    display: flex;
+    align-items: center;
+   justify-content: center;
+    flex-direction: column;
+    background-color: #7a7a7a;
+    transition: 0.5s;
+
+
+}
+body.easy  {
+    background-color: #7ce494;
+}
+body.easy #target-text {
+  color: #0f4b12;
+}
+body.easy #input-text { 
+    width : 700px;
+    height: 100px;
+    background-color: #a9cfa0;
+    color: #050404;
+}
+#easy-button {
+      background-color: #a9cfa0;
+}
+body.medium {
+    background-color: #ffe283;
+}
+body.medium #target-text {
+  color: #4b4b0f;
+}
+
+
+body.medium #input-text { 
+    width : 700px;
+    height: 100px;
+    display: block;
+    background-color: #e1f059;
+    color: #050404;
+}
+#medium-button {
+      background-color: #cccfa0;
+}
+body.hard {
+    background-color: #f04e4e;
+}
+body.hard #target-text {
+  color: #0f4b12;
+}
+body.hard #input-text { 
+    width : 700px;
+    height: 100px;
+    display: block;
+    background-color: #cfa0a0;
+    color: #050404;
+}
+#hard-button {
+  background-color: #d69c9c;
+
+}
+
+#target-text {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+button {
+   padding: 10px 12px;
+    margin: 4px 2px;
+    font-size: 20px;
+  cursor: pointer;
+    border-radius: 25px;
+}
+
+#timer {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px; 
+  font-weight: bold;
+  padding: 10px;
+
+}
+
+#results {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 5px;
+  color: darkred;
+}
+
+#input-text {
+  width: 500px;
+  height: 100px;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  transition: 0.5s;
+}
