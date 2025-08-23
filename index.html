@@ -1,24 +1,34 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>Speed Typing Test</title>
-  <link rel="stylesheet" href="style.css">
-  <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <title>Speed Typing Test</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Speed Typing Test</h1>
+    <h1 id="game-title">Speed Typing Test</h1>
+    <h2 id="game-level">Choose the difficulty</h2>
 
-  <div id="difficulty-buttons">
-    <button id ="easy-button">Easy</button>
-    <button id ="medium-button">Medium</button>
-    <button id="hard-button">Hard</button>
-  </div>
+    <div id="difficulty-buttons">
+        <button id="easy-button">Easy</button>
+        <button id="medium-button">Medium</button>
+        <button id="hard-button">Hard</button>
+    </div>
 
-  <p id="target-text"></p>
-  <textarea placeholder="Start typing here ..." id="input-text"></textarea>
-  <div id="timer">Time: 30s</div>
-  <div id="results"></div>
-  <div id="best-score"></div>
+    <p id="target-text"></p>
+    <textarea placeholder="Start typing here ..." id="input-text"></textarea>
 
-  <script src="app.js"></script>
+    <h2 id = "instaqshin">    Instructions: Choose a difficulty and type the sentence as fast as you can within 30 seconds!</h2>
+    <div id="timer">Time: 30s</div>
+
+    <div id="popup">
+        <div id="popup-content">
+            <h2 id="popup-title"></h2>
+            <p id="popup-messege"></p>
+            <button id="popup-close">close</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
 </body>
 </html>

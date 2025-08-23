@@ -19,6 +19,8 @@ body.easy #input-text {
     height: 100px;
     background-color: #a9cfa0;
     color: #050404;
+      transition: 0.5s;
+
 }
 #easy-button {
       background-color: #a9cfa0;
@@ -37,6 +39,8 @@ body.medium #input-text {
     display: block;
     background-color: #e1f059;
     color: #050404;
+      transition: 0.5s;
+
 }
 #medium-button {
       background-color: #cccfa0;
@@ -53,6 +57,8 @@ body.hard #input-text {
     display: block;
     background-color: #cfa0a0;
     color: #050404;
+      transition: 0.5s;
+
 }
 #hard-button {
   background-color: #d69c9c;
@@ -70,6 +76,9 @@ button {
     font-size: 20px;
   cursor: pointer;
     border-radius: 25px;
+  transition: 0.5s;
+
+
 }
 
 #timer {
@@ -81,13 +90,6 @@ button {
 
 }
 
-#results {
-  font-size: 22px;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 5px;
-  color: darkred;
-}
 
 #input-text {
   width: 500px;
@@ -97,5 +99,97 @@ button {
   margin-top: 15px;
   border-radius: 8px;
   border: 2px solid #ccc;
+}
+
+#game-title {
   transition: 0.5s;
 }
+#game-level {
+  transition: 0.5s;
+
+}
+
+.correct {
+      color: #45ff30;
+
+}
+
+.incorrect {
+        color: #ff3030;
+
+}
+
+
+#timer {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  color: #2c3e50;
+  background: #ffffff;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: flex;        
+  align-items: center;
+  justify-content: center;
+  border: 6px solid #3498db;     
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  margin: 30px auto;
+  transition: all 0.3s ease-in-out;
+}
+
+/* الخلفية */
+#popup {
+  display: none; /* مخفي بالبداية */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5); /* شفافية سوداء */
+  align-items: center;
+  justify-content: center;
+}
+
+/* الصندوق */
+#popup-content {
+  display: none; 
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 15px;
+  text-align: center;
+  width: 350px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+  animation: popupFade 0.3s ease;
+  flex-direction: column;
+}
+
+/* العنوان */
+#popup-content h2 {
+  margin-bottom: 15px;
+  font-size: 24px;
+  color: #2c3e50;
+}
+
+/* الرسالة */
+#popup-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* زر الخروج */
+#popup-close {
+  padding: 10px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background: #3498db;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#popup-close:hover {
+  background: #2980b9;
+}
+
+
