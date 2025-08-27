@@ -1,81 +1,93 @@
 body {
-    display: flex;
-    align-items: center;
-   justify-content: center;
-    flex-direction: column;
-    background-color: #7a7a7a;
-    transition: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #7a7a7a;
+  transition: 0.5s;
 
 
 }
-body.easy  {
-    background-color: #7ce494;
+
+body.easy {
+  background-color: #7ce494;
 }
+
 body.easy #target-text {
   color: #0f4b12;
 }
-body.easy #input-text { 
-    width : 700px;
-    height: 100px;
-    background-color: #a9cfa0;
-    color: #050404;
-      transition: 0.5s;
+
+body.easy #input-text {
+  width: 700px;
+  height: 100px;
+  background-color: #a9cfa0;
+  color: #050404;
+  transition: 0.5s;
 
 }
+
 #easy-button {
-      background-color: #a9cfa0;
+  background-color: #a9cfa0;
 }
+
 body.medium {
-    background-color: #ffe283;
+  background-color: #ffe283;
 }
+
 body.medium #target-text {
   color: #4b4b0f;
 }
 
 
-body.medium #input-text { 
-    width : 700px;
-    height: 100px;
-    display: block;
-    background-color: #e1f059;
-    color: #050404;
-      transition: 0.5s;
+body.medium #input-text {
+  width: 700px;
+  height: 100px;
+  display: block;
+  background-color: #e1f059;
+  color: #050404;
+  transition: 0.5s;
 
 }
+
 #medium-button {
-      background-color: #cccfa0;
+  background-color: #cccfa0;
 }
+
 body.hard {
-    background-color: #ff7f4c;
+  background-color: #ff7f4c;
 }
+
 body.hard #target-text {
   color: #0f4b12;
 }
-body.hard #input-text { 
-    width : 700px;
-    height: 100px;
-    display: block;
-    background-color: #cfa0a0;
-    color: #050404;
-      transition: 0.5s;
+
+body.hard #input-text {
+  width: 700px;
+  height: 100px;
+  display: block;
+  background-color: #cfa0a0;
+  color: #050404;
+  transition: 0.5s;
 
 }
+
 #hard-button {
   background-color: #d69c9c;
 
 }
 
 #target-text {
-    font-size: 24px;
-    margin-bottom: 20px;
-    text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
 }
+
 button {
-   padding: 10px 12px;
-    margin: 4px 2px;
-    font-size: 20px;
+  padding: 10px 12px;
+  margin: 4px 2px;
+  font-size: 20px;
   cursor: pointer;
-    border-radius: 25px;
+  border-radius: 25px;
   transition: 0.5s;
 
 
@@ -84,7 +96,7 @@ button {
 #timer {
   font-size: 20px;
   text-align: center;
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
   font-weight: bold;
   padding: 10px;
 
@@ -104,18 +116,19 @@ button {
 #game-title {
   transition: 0.5s;
 }
+
 #game-level {
   transition: 0.5s;
 
 }
 
 .correct {
-      color: #45ff30;
+  color: #45ff30;
 
 }
 
 .incorrect {
-        color: #ff3030;
+  color: #ff3030;
 
 }
 
@@ -129,55 +142,50 @@ button {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  display: flex;        
+  display: flex;
   align-items: center;
   justify-content: center;
-  border: 6px solid #3498db;     
-  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  border: 6px solid #3498db;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
   margin: 30px auto;
   transition: all 0.3s ease-in-out;
 }
 
-/* الخلفية */
 #popup {
-  display: none; /* مخفي بالبداية */
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0,0,0,0.5); /* شفافية سوداء */
+  background: rgba(0, 0, 0, 0.5);
   align-items: center;
   justify-content: center;
 }
 
-/* الصندوق */
 #popup-content {
-  display: none; 
+  display: none;
   background: #fff;
   padding: 30px 40px;
   border-radius: 15px;
   text-align: center;
   width: 350px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
   animation: popupFade 0.3s ease;
   flex-direction: column;
 }
 
-/* العنوان */
 #popup-content h2 {
   margin-bottom: 15px;
   font-size: 24px;
   color: #2c3e50;
 }
 
-/* الرسالة */
 #popup-content p {
   font-size: 18px;
   margin-bottom: 20px;
 }
 
-/* زر الخروج */
 #popup-close {
   padding: 10px 25px;
   font-size: 16px;
@@ -188,8 +196,7 @@ button {
   cursor: pointer;
   transition: 0.3s;
 }
+
 #popup-close:hover {
   background: #2980b9;
 }
-
-
