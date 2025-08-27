@@ -1,7 +1,35 @@
 # Browser-Based-Game-Project---writing-speed-test-
+Writing Speed Test Game
+This is a small game to practice your typing speed and accuracy.  
+The idea: a sentence appears, you try to type it fast and correct, and see how many words per minute (WPM) you can type.
 
-Game Choice:
-Writing Speed Test Game , players type a given sentence as fast and accurately as possible, and the game measures their time and typing accuracy.
+<img width="1917" height="962" alt="project 1" src="https://github.com/user-attachments/assets/fe86725d-9e95-42ec-844e-4c6a9d47bd92" />
+
+Try the game :
+https://algallaf.github.io/Browser-Based-Game-Project---writing-speed-test-/
+
+Game Features:
+Shows correct letters in green, wrong letters in red.
+3 difficulty levels: Easy, Medium, Hard.
+Counts time and words per minute (WPM).
+Saves your best score.
+Simple and clear design.
+
+Technology Used :
+HTML: for the page.
+CSS: for style.
+JavaScript: for game logic.
+
+resourses :
+CSS ideas and examples from W3Schools css
+https://www.w3schools.com/css/
+
+Future Ideas :
+
+Add a race mode with another player.
+Add more sentences and difficulties.
+Dark Mode.
+Add sounds and simple animations.
 
 Pseudocode for Gameplay:
 
